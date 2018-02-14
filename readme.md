@@ -4,6 +4,8 @@
 
 -  php artisan vendor:publish
 
+-  php artisan migrate
+
 -  php artisan serve
 
 
@@ -143,7 +145,7 @@ http://localhost:8000/api/v1/login
 params = 
 
 {
-    
+
 	email = 'gold@bright.com',
 
 	password = '123456'
