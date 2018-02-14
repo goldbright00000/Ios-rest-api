@@ -179,7 +179,11 @@ return [
 
         // rest api sercices
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
-        Barryvdh\Cors\ServiceProvider::class
+        Barryvdh\Cors\ServiceProvider::class,
+
+        // migrate gernerater providers
+        Way\Generators\GeneratorsServiceProvider::class,
+        Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
 
     ],
 

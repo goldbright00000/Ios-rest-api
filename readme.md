@@ -67,6 +67,7 @@ http://localhost:8000/api/v1/update
 params = 
 
 {
+
     uid = 9,
 
     transaction_id = '123123123123123123123123123112312',
@@ -142,6 +143,7 @@ http://localhost:8000/api/v1/login
 params = 
 
 {
+    
 	email = 'gold@bright.com',
 
 	password = '123456'
